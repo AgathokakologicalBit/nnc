@@ -8,9 +8,10 @@ jobs:
     steps:
       - checkout
       - run:
-        command: |
-          sudo apt install -y jupyter-nbconvert
-          jupyter-nbconvert --execute ./ml.ipynb
+          command: |
+            sudo apt install -y jupyter-nbconvert
+            jupyter-nbconvert --execute ./ml.ipynb
       - store_artifacts:
-        path: ./ml.html
-        destination: ml.html
+          path: ./ml.html
+          destination: ml.html
+
