@@ -6,4 +6,4 @@ It will plot the decision boundaries for each class.
 
 
 Made as a part of something bigger(?).
-<!-- testing gpg as well -->
+<!-- testing gpg as well. So, email it is... -->
