@@ -12,6 +12,8 @@ jobs:
       - run: sudo pip install numpy
       - run: sudo pip install matplotlib
       - run: sudo pip install sklearn
+      - run: python3 -m pip install ipykernel
+      - run: python3 -m ipykernel install --user
       - run: jupyter nbconvert --to html --execute ./ml.ipynb
       - store_artifacts:
           path: ./ml.html
