@@ -7,8 +7,8 @@ jobs:
       - image: circleci/python:3.6.4
     steps:
       - checkout
-      - run: sudo apt install -y jupyter-nbconvert
-      - run: jupyter-nbconvert --execute ./ml.ipynb
+      - run: sudo pip install nbconvert
+      - run: jupyter nbconvert --to html --execute ./ml.ipynb
       - store_artifacts:
           path: ./ml.html
           destination: ml.html
