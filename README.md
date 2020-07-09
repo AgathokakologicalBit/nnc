@@ -3,3 +3,7 @@
 # Nearest Neighbors classification
 Sample usage of the algorithm.
 It will plot the decision boundaries for each class.
+
+
+Made as a part of something bigger(?).
+<!-- testing gpg as well -->
