@@ -1,5 +1,5 @@
 [![AgathokakologicalBit](https://circleci.com/gh/AgathokakologicalBit/nnc.svg?style=shield)](https://circleci.com/gh/AgathokakologicalBit/nnc)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AgathokakologicalBit/nnc/binder-integration?filepath=ml.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AgathokakologicalBit/nnc/master?filepath=ml.ipynb)
 
 # Nearest Neighbors classification
 Sample usage of the algorithm.
